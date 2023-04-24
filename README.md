@@ -1,4 +1,4 @@
-# zaretna
+# Zaretna - back office windows form application.
 This is the Windows application of the back office of Zaretna.
 Backups are stored on Google Drive since the business stopped its services.
 
