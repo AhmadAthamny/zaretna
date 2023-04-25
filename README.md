@@ -20,20 +20,23 @@ This is the window to view and manage orders.
 When complete, we write the final price of the order (after weighting the products and getting the exact price), then the order will have the golden background.
 
 # Delivery
-This is the delivery man window:
-![image](https://user-images.githubusercontent.com/36423427/234234666-f5dd12a4-9932-4ef4-8376-b0a0a908fa62.png)
-
 * When an order is collected and a final price was set for it, then the order will appear in the delivery window.
+* Delivery window displays all collected orders, and in it we choose an email address.
 * We can then send an email to the delivery man that contains a table of collected orders with all needed details.
 * Here's an example of an email sent from the program for delivery:
 ![image](https://user-images.githubusercontent.com/36423427/234241462-02f6f5c8-b27e-4947-832c-ea3a1c8f4649.png)
-* When an order is delivered, by clicking on the link on the most left column, the order is set as "delivered" and will disappear from the orders list.
+* When an order is delivered, by clicking on the link on the most left column, the order is set as "delivered" and will disappear from the orders list in the app, this feature makes the app and the business in general more organized and focused.
 
+# Sales & Statistics 
+![image](https://user-images.githubusercontent.com/36423427/234243622-d049efbb-860f-40db-8c5c-8dc04b4791c2.png)
+* This is real-time graph, that shows the number of orders between two given dates.
+* We can also see more detailed graph, such that it shows how many orders were done from each region between two given dates:
+![image](https://user-images.githubusercontent.com/36423427/234244593-2801745d-8a07-44a5-b2a2-972134b11531.png)
 
+# Other Features
+In a video that will be provided soon, other features will be presented, such as updating products, managing units (kg/box, etc), and more.
 
-All project files were moved to this Github repository for the first time.
-
-The website is hosted on bluehost.com, the host was supposed to be renewed in the last March (03/2023) in order to keep the website up, but it's currently "under maintenence".
-
-Required packages:
-1. MySQL.Data (By Oracle)
+# Installation
+* Clone this repo.
+* Make sure MySQL.Data (By Oracle) is installed.
+* Compile & Run, that's it! :)
