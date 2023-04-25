@@ -10,16 +10,24 @@ My farmer uncle that has been farming for more than 15 years (works as agricultu
 
 # Managing Orders
 ![image](https://user-images.githubusercontent.com/36423427/234231926-f55b2959-24ef-4e91-abe0-628a29939edc.png)
-This is the window to view and manage orders, orders with golden background are prepared (collected) for delivery, while orders with white background are still not collected.
-To view an order, we simply click on it, and the following window will open:
-![image](https://user-images.githubusercontent.com/36423427/234233755-e0da60f6-6e4e-4e1f-9732-5ad269f4eb9e.png)
+
+This is the window to view and manage orders.
+* Orders with golden background are collected, weighted (priced), and are ready for delivery.
+* Orders with white background are not collected yet.
+* Supports advanced search (filter by delivery region, customer's first name/last name, phone number, show orders between two dates).
+* To view an order, we simply click on it, and the following window will open:
+![image](https://user-images.githubusercontent.com/36423427/234238179-d1d429a5-fbbd-4b4d-bcb4-d8a4e501595c.png)
 When complete, we write the final price of the order (after weighting the products and getting the exact price), then the order will have the golden background.
 
 # Delivery
-There's a window for delivery:
+This is the delivery man window:
 ![image](https://user-images.githubusercontent.com/36423427/234234666-f5dd12a4-9932-4ef4-8376-b0a0a908fa62.png)
-We choose the email address the belongs to the delivery man (new email addresses) can be added easily, and an email that contains a table of all prepared orders with details and information about the orders.
-Example of an email sent for delivery:
+
+* When an order is collected and a final price was set for it, then the order will appear in the delivery window.
+* We can then send an email to the delivery man that contains a table of collected orders with all needed details.
+* Here's an example of an email sent from the program for delivery:
+![image](https://user-images.githubusercontent.com/36423427/234241462-02f6f5c8-b27e-4947-832c-ea3a1c8f4649.png)
+* When an order is delivered, by clicking on the link on the most left column, the order is set as "delivered" and will disappear from the orders list.
 
 
 
