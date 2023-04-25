@@ -5,3 +5,6 @@ Backups are stored on Google Drive since the business stopped its services.
 All project files were moved to this Github repository for the first time.
 
 The website is hosted on bluehost.com, the host was supposed to be renewed in the last March (03/2023) in order to keep the website up, but it's currently "under maintenence".
+
+Required packages:
+1. MySQL.Data (By Oracle)
