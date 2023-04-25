@@ -28,6 +28,8 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -64,8 +66,8 @@
     <ApplicationIcon>theicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
-      <HintPath>packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
       <HintPath>packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
@@ -79,20 +81,32 @@
     <Reference Include="FluentFTP, Version=32.2.2.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
       <HintPath>packages\FluentFTP.32.2.2\lib\net45\FluentFTP.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\Desktop\MySql.Data.DLL</HintPath>
+    <Reference Include="MySql.Data, Version=8.0.33.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.33\lib\net462\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="PdfiumViewer, Version=2.10.0.0, Culture=neutral, PublicKeyToken=91e4789cfb0609e0, processorArchitecture=MSIL">
-      <HintPath>packages\PdfiumViewer.2.10.0.0\lib\net20\PdfiumViewer.dll</HintPath>
+    <Reference Include="PdfiumViewer, Version=2.13.0.0, Culture=neutral, PublicKeyToken=91e4789cfb0609e0, processorArchitecture=MSIL">
+      <HintPath>packages\PdfiumViewer.2.13.0.0\lib\net20\PdfiumViewer.dll</HintPath>
     </Reference>
     <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
       <HintPath>packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
@@ -102,26 +116,32 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.Encodings.Web.4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -138,58 +158,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addNewCategoryForm.cs">
+    <Compile Include="Forms\addNewCategoryForm\addNewCategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addNewCategoryForm.Designer.cs">
+    <Compile Include="Forms\addNewCategoryForm\addNewCategoryForm.Designer.cs">
       <DependentUpon>addNewCategoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddNewProductForm.cs">
+    <Compile Include="Forms\Products Forms\AddNewProductForm\AddNewProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddNewProductForm.Designer.cs">
+    <Compile Include="Forms\Products Forms\AddNewProductForm\AddNewProductForm.Designer.cs">
       <DependentUpon>AddNewProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="addProductToCategory.cs">
+    <Compile Include="Forms\Products Forms\addProductToCategory\addProductToCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addProductToCategory.Designer.cs">
+    <Compile Include="Forms\Products Forms\addProductToCategory\addProductToCategory.Designer.cs">
       <DependentUpon>addProductToCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="defineProducts.cs">
+    <Compile Include="Forms\Products Forms\defineProducts\defineProducts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="defineProducts.Designer.cs">
+    <Compile Include="Forms\Products Forms\defineProducts\defineProducts.Designer.cs">
       <DependentUpon>defineProducts.cs</DependentUpon>
     </Compile>
-    <Compile Include="list_productControl.cs">
+    <Compile Include="productControls\list_productControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="list_productControl.Designer.cs">
+    <Compile Include="productControls\list_productControl.Designer.cs">
       <DependentUpon>list_productControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageUnits.cs">
+    <Compile Include="Forms\ManageUnits\ManageUnits.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageUnits.Designer.cs">
+    <Compile Include="Forms\ManageUnits\ManageUnits.Designer.cs">
       <DependentUpon>ManageUnits.cs</DependentUpon>
     </Compile>
-    <Compile Include="names.cs">
+    <Compile Include="Forms\For SMS\names.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="names.Designer.cs">
+    <Compile Include="Forms\For SMS\names.Designer.cs">
       <DependentUpon>names.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewOrdersForm.cs">
+    <Compile Include="Forms\Orders Forms\NewOrdersForm\NewOrdersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewOrdersForm.Designer.cs">
+    <Compile Include="Forms\Orders Forms\NewOrdersForm\NewOrdersForm.Designer.cs">
       <DependentUpon>NewOrdersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderControl.cs">
+    <Compile Include="orderControls\OrderControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="OrderControl.Designer.cs">
+    <Compile Include="orderControls\OrderControl.Designer.cs">
       <DependentUpon>OrderControl.cs</DependentUpon>
     </Compile>
     <Compile Include="productControls\addNewProductControl.cs">
@@ -198,249 +218,249 @@
     <Compile Include="productControls\addNewProductControl.Designer.cs">
       <DependentUpon>addNewProductControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductToCart.cs">
+    <Compile Include="Forms\Products Forms\AddProductToCart\AddProductToCart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductToCart.Designer.cs">
+    <Compile Include="Forms\Products Forms\AddProductToCart\AddProductToCart.Designer.cs">
       <DependentUpon>AddProductToCart.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductToDiscounts.cs">
+    <Compile Include="Forms\Products Forms\AddProductToDiscounts\AddProductToDiscounts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductToDiscounts.Designer.cs">
+    <Compile Include="Forms\Products Forms\AddProductToDiscounts\AddProductToDiscounts.Designer.cs">
       <DependentUpon>AddProductToDiscounts.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductToMotsat.cs">
+    <Compile Include="Forms\Products Forms\AddProductToMotsat\AddProductToMotsat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductToMotsat.Designer.cs">
+    <Compile Include="Forms\Products Forms\AddProductToMotsat\AddProductToMotsat.Designer.cs">
       <DependentUpon>AddProductToMotsat.cs</DependentUpon>
     </Compile>
-    <Compile Include="API_CLASS.cs" />
-    <Compile Include="AutosoftPrices.cs">
+    <Compile Include="Classes\API_CLASS.cs" />
+    <Compile Include="Forms\AutosoftPrices\AutosoftPrices.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AutosoftPrices.Designer.cs">
+    <Compile Include="Forms\AutosoftPrices\AutosoftPrices.Designer.cs">
       <DependentUpon>AutosoftPrices.cs</DependentUpon>
     </Compile>
-    <Compile Include="BiggerMessage.cs" />
-    <Compile Include="BiggerMessageBox.cs">
+    <Compile Include="Classes\BiggerMessage.cs" />
+    <Compile Include="Forms\BiggerMessageBox\BiggerMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BiggerMessageBox.Designer.cs">
+    <Compile Include="Forms\BiggerMessageBox\BiggerMessageBox.Designer.cs">
       <DependentUpon>BiggerMessageBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="categories.cs">
+    <Compile Include="Forms\categories\categories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="categories.Designer.cs">
+    <Compile Include="Forms\categories\categories.Designer.cs">
       <DependentUpon>categories.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConfirmPass.cs">
+    <Compile Include="Forms\ConfirmPass\ConfirmPass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfirmPass.Designer.cs">
+    <Compile Include="Forms\ConfirmPass\ConfirmPass.Designer.cs">
       <DependentUpon>ConfirmPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="customerSelection.cs">
+    <Compile Include="Forms\customerSelection\customerSelection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="customerSelection.Designer.cs">
+    <Compile Include="Forms\customerSelection\customerSelection.Designer.cs">
       <DependentUpon>customerSelection.cs</DependentUpon>
     </Compile>
-    <Compile Include="customersList.cs">
+    <Compile Include="Forms\customersList\customersList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="customersList.Designer.cs">
+    <Compile Include="Forms\customersList\customersList.Designer.cs">
       <DependentUpon>customersList.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatePickerForm.cs">
+    <Compile Include="Forms\DatePickerForm\DatePickerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatePickerForm.Designer.cs">
+    <Compile Include="Forms\DatePickerForm\DatePickerForm.Designer.cs">
       <DependentUpon>DatePickerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="deliveryRegions.cs">
+    <Compile Include="Forms\Delivery Regions\deliveryRegions\deliveryRegions.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="deliveryRegions.Designer.cs">
+    <Compile Include="Forms\Delivery Regions\deliveryRegions\deliveryRegions.Designer.cs">
       <DependentUpon>deliveryRegions.cs</DependentUpon>
     </Compile>
-    <Compile Include="DGVFix.cs" />
-    <Compile Include="EmailSend.cs" />
-    <Compile Include="EnterTotalPrice.cs">
+    <Compile Include="Classes\DGVFix.cs" />
+    <Compile Include="Classes\EmailSend.cs" />
+    <Compile Include="Forms\EnterTotalPrice\EnterTotalPrice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EnterTotalPrice.Designer.cs">
+    <Compile Include="Forms\EnterTotalPrice\EnterTotalPrice.Designer.cs">
       <DependentUpon>EnterTotalPrice.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Main\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Main\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="latestOrders.cs">
+    <Compile Include="Forms\latestOrders\latestOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="latestOrders.Designer.cs">
+    <Compile Include="Forms\latestOrders\latestOrders.Designer.cs">
       <DependentUpon>latestOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoadingForm.cs">
+    <Compile Include="Forms\LoadingForm\LoadingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoadingForm.Designer.cs">
+    <Compile Include="Forms\LoadingForm\LoadingForm.Designer.cs">
       <DependentUpon>LoadingForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManagePackageInfo.cs">
+    <Compile Include="Forms\ManagePackageInfo\ManagePackageInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagePackageInfo.Designer.cs">
+    <Compile Include="Forms\ManagePackageInfo\ManagePackageInfo.Designer.cs">
       <DependentUpon>ManagePackageInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageProductDiscountInfo.cs">
+    <Compile Include="Forms\Products Forms\ManageProductDiscountInfo\ManageProductDiscountInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageProductDiscountInfo.Designer.cs">
+    <Compile Include="Forms\Products Forms\ManageProductDiscountInfo\ManageProductDiscountInfo.Designer.cs">
       <DependentUpon>ManageProductDiscountInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="MostatForm.cs">
+    <Compile Include="Forms\MostatForm\MostatForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MostatForm.Designer.cs">
+    <Compile Include="Forms\MostatForm\MostatForm.Designer.cs">
       <DependentUpon>MostatForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewProductsForm.cs">
+    <Compile Include="Forms\Products Forms\NewProductsForm\NewProductsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewProductsForm.Designer.cs">
+    <Compile Include="Forms\Products Forms\NewProductsForm\NewProductsForm.Designer.cs">
       <DependentUpon>NewProductsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderInfo.cs">
+    <Compile Include="Forms\Orders Forms\OrderInfo\OrderInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderInfo.Designer.cs">
+    <Compile Include="Forms\Orders Forms\OrderInfo\OrderInfo.Designer.cs">
       <DependentUpon>OrderInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrdersForm.cs">
+    <Compile Include="Forms\Orders Forms\ViewOrdersForm\OrdersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrdersForm.Designer.cs">
+    <Compile Include="Forms\Orders Forms\ViewOrdersForm\OrdersForm.Designer.cs">
       <DependentUpon>OrdersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrdersMainPage.cs">
+    <Compile Include="Forms\Orders Forms\OrdersMainPage\OrdersMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrdersMainPage.Designer.cs">
+    <Compile Include="Forms\Orders Forms\OrdersMainPage\OrdersMainPage.Designer.cs">
       <DependentUpon>OrdersMainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="PaymentInfo.cs">
+    <Compile Include="Forms\Orders Forms\PaymentInfo\PaymentInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaymentInfo.Designer.cs">
+    <Compile Include="Forms\Orders Forms\PaymentInfo\PaymentInfo.Designer.cs">
       <DependentUpon>PaymentInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="preparedOrders.cs">
+    <Compile Include="Forms\Orders Forms\preparedOrders\preparedOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="preparedOrders.Designer.cs">
+    <Compile Include="Forms\Orders Forms\preparedOrders\preparedOrders.Designer.cs">
       <DependentUpon>preparedOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="productList.cs">
+    <Compile Include="Forms\Products Forms\productList\productList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="productList.Designer.cs">
+    <Compile Include="Forms\Products Forms\productList\productList.Designer.cs">
       <DependentUpon>productList.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductPrices.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductPrices\ProductPrices.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductPrices.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductPrices\ProductPrices.Designer.cs">
       <DependentUpon>ProductPrices.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\Products\Products.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Products.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\Products\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsCategories.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsCategories\ProductsCategories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductsCategories.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsCategories\ProductsCategories.Designer.cs">
       <DependentUpon>ProductsCategories.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsDiscounts.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsDiscounts\ProductsDiscounts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductsDiscounts.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsDiscounts\ProductsDiscounts.Designer.cs">
       <DependentUpon>ProductsDiscounts.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsImages.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsImages\ProductsImages.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductsImages.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\ProductsImages\ProductsImages.Designer.cs">
       <DependentUpon>ProductsImages.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsMainPage.cs">
+    <Compile Include="Forms\Products Forms\ProductsMainPage\ProductsMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductsMainPage.Designer.cs">
+    <Compile Include="Forms\Products Forms\ProductsMainPage\ProductsMainPage.Designer.cs">
       <DependentUpon>ProductsMainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RemoveMotsatProduct.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveMotsatProduct\RemoveMotsatProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemoveMotsatProduct.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveMotsatProduct\RemoveMotsatProduct.Designer.cs">
       <DependentUpon>RemoveMotsatProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemoveOrderProduct.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveOrderProduct\RemoveOrderProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemoveOrderProduct.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveOrderProduct\RemoveOrderProduct.Designer.cs">
       <DependentUpon>RemoveOrderProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemoveProductForm.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveProductForm\RemoveProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemoveProductForm.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\RemoveProductForm\RemoveProductForm.Designer.cs">
       <DependentUpon>RemoveProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemoveRegionForm.cs">
+    <Compile Include="Forms\Delivery Regions\RemoveRegionForm\RemoveRegionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemoveRegionForm.Designer.cs">
+    <Compile Include="Forms\Delivery Regions\RemoveRegionForm\RemoveRegionForm.Designer.cs">
       <DependentUpon>RemoveRegionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="salesForm.cs">
+    <Compile Include="Forms\Sales Forms\salesForm\salesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="salesForm.Designer.cs">
+    <Compile Include="Forms\Sales Forms\salesForm\salesForm.Designer.cs">
       <DependentUpon>salesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="sales_RegionsChart.cs">
+    <Compile Include="Forms\Sales Forms\sales_RegionsChart\sales_RegionsChart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sales_RegionsChart.Designer.cs">
+    <Compile Include="Forms\Sales Forms\sales_RegionsChart\sales_RegionsChart.Designer.cs">
       <DependentUpon>sales_RegionsChart.cs</DependentUpon>
     </Compile>
-    <Compile Include="TotalOrdersForm.cs">
+    <Compile Include="Forms\Orders Forms\TotalOrdersForm\TotalOrdersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TotalOrdersForm.Designer.cs">
+    <Compile Include="Forms\Orders Forms\TotalOrdersForm\TotalOrdersForm.Designer.cs">
       <DependentUpon>TotalOrdersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="TotalPriceDiscount.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\TotalPriceDiscount\TotalPriceDiscount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TotalPriceDiscount.Designer.cs">
+    <Compile Include="Forms\Products Forms\Old %28Unused%29\TotalPriceDiscount\TotalPriceDiscount.Designer.cs">
       <DependentUpon>TotalPriceDiscount.cs</DependentUpon>
     </Compile>
     <Compile Include="productControls\ProductControl.cs">
@@ -449,142 +469,142 @@
     <Compile Include="productControls\ProductControl.Designer.cs">
       <DependentUpon>ProductControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="UnitControl.cs">
+    <Compile Include="productControls\UnitControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UnitControl.Designer.cs">
+    <Compile Include="productControls\UnitControl.Designer.cs">
       <DependentUpon>UnitControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="WriteEmails.cs">
+    <Compile Include="Forms\Emails\WriteEmails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WriteEmails.Designer.cs">
+    <Compile Include="Forms\Emails\WriteEmails.Designer.cs">
       <DependentUpon>WriteEmails.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="addNewCategoryForm.resx">
+    <EmbeddedResource Include="Forms\addNewCategoryForm\addNewCategoryForm.resx">
       <DependentUpon>addNewCategoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddNewProductForm.resx">
+    <EmbeddedResource Include="Forms\Products Forms\AddNewProductForm\AddNewProductForm.resx">
       <DependentUpon>AddNewProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addProductToCategory.resx">
+    <EmbeddedResource Include="Forms\Products Forms\addProductToCategory\addProductToCategory.resx">
       <DependentUpon>addProductToCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="defineProducts.resx">
+    <EmbeddedResource Include="Forms\Products Forms\defineProducts\defineProducts.resx">
       <DependentUpon>defineProducts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="list_productControl.resx">
+    <EmbeddedResource Include="productControls\list_productControl.resx">
       <DependentUpon>list_productControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageUnits.resx">
+    <EmbeddedResource Include="Forms\ManageUnits\ManageUnits.resx">
       <DependentUpon>ManageUnits.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="names.resx">
+    <EmbeddedResource Include="Forms\For SMS\names.resx">
       <DependentUpon>names.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewOrdersForm.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\NewOrdersForm\NewOrdersForm.resx">
       <DependentUpon>NewOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderControl.resx">
+    <EmbeddedResource Include="orderControls\OrderControl.resx">
       <DependentUpon>OrderControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="productControls\addNewProductControl.resx">
       <DependentUpon>addNewProductControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductToCart.resx">
+    <EmbeddedResource Include="Forms\Products Forms\AddProductToCart\AddProductToCart.resx">
       <DependentUpon>AddProductToCart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductToDiscounts.resx">
+    <EmbeddedResource Include="Forms\Products Forms\AddProductToDiscounts\AddProductToDiscounts.resx">
       <DependentUpon>AddProductToDiscounts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductToMotsat.resx">
+    <EmbeddedResource Include="Forms\Products Forms\AddProductToMotsat\AddProductToMotsat.resx">
       <DependentUpon>AddProductToMotsat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AutosoftPrices.resx">
+    <EmbeddedResource Include="Forms\AutosoftPrices\AutosoftPrices.resx">
       <DependentUpon>AutosoftPrices.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BiggerMessageBox.resx">
+    <EmbeddedResource Include="Forms\BiggerMessageBox\BiggerMessageBox.resx">
       <DependentUpon>BiggerMessageBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="categories.resx">
+    <EmbeddedResource Include="Forms\categories\categories.resx">
       <DependentUpon>categories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConfirmPass.resx">
+    <EmbeddedResource Include="Forms\ConfirmPass\ConfirmPass.resx">
       <DependentUpon>ConfirmPass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="customerSelection.resx">
+    <EmbeddedResource Include="Forms\customerSelection\customerSelection.resx">
       <DependentUpon>customerSelection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="customersList.resx">
+    <EmbeddedResource Include="Forms\customersList\customersList.resx">
       <DependentUpon>customersList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatePickerForm.resx">
+    <EmbeddedResource Include="Forms\DatePickerForm\DatePickerForm.resx">
       <DependentUpon>DatePickerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="deliveryRegions.resx">
+    <EmbeddedResource Include="Forms\Delivery Regions\deliveryRegions\deliveryRegions.resx">
       <DependentUpon>deliveryRegions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EnterTotalPrice.resx">
+    <EmbeddedResource Include="Forms\EnterTotalPrice\EnterTotalPrice.resx">
       <DependentUpon>EnterTotalPrice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Main\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="latestOrders.resx">
+    <EmbeddedResource Include="Forms\latestOrders\latestOrders.resx">
       <DependentUpon>latestOrders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoadingForm.resx">
+    <EmbeddedResource Include="Forms\LoadingForm\LoadingForm.resx">
       <DependentUpon>LoadingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagePackageInfo.resx">
+    <EmbeddedResource Include="Forms\ManagePackageInfo\ManagePackageInfo.resx">
       <DependentUpon>ManagePackageInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageProductDiscountInfo.resx">
+    <EmbeddedResource Include="Forms\Products Forms\ManageProductDiscountInfo\ManageProductDiscountInfo.resx">
       <DependentUpon>ManageProductDiscountInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MostatForm.resx">
+    <EmbeddedResource Include="Forms\MostatForm\MostatForm.resx">
       <DependentUpon>MostatForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewProductsForm.resx">
+    <EmbeddedResource Include="Forms\Products Forms\NewProductsForm\NewProductsForm.resx">
       <DependentUpon>NewProductsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderInfo.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\OrderInfo\OrderInfo.resx">
       <DependentUpon>OrderInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrdersForm.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\ViewOrdersForm\OrdersForm.resx">
       <DependentUpon>OrdersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrdersMainPage.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\OrdersMainPage\OrdersMainPage.resx">
       <DependentUpon>OrdersMainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaymentInfo.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\PaymentInfo\PaymentInfo.resx">
       <DependentUpon>PaymentInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="preparedOrders.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\preparedOrders\preparedOrders.resx">
       <DependentUpon>preparedOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="productControls\ProductControl.resx">
       <DependentUpon>ProductControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="productList.resx">
+    <EmbeddedResource Include="Forms\Products Forms\productList\productList.resx">
       <DependentUpon>productList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductPrices.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\ProductPrices\ProductPrices.resx">
       <DependentUpon>ProductPrices.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\Products\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductsCategories.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\ProductsCategories\ProductsCategories.resx">
       <DependentUpon>ProductsCategories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductsDiscounts.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\ProductsDiscounts\ProductsDiscounts.resx">
       <DependentUpon>ProductsDiscounts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductsImages.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\ProductsImages\ProductsImages.resx">
       <DependentUpon>ProductsImages.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductsMainPage.resx">
+    <EmbeddedResource Include="Forms\Products Forms\ProductsMainPage\ProductsMainPage.resx">
       <DependentUpon>ProductsMainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -592,34 +612,34 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemoveMotsatProduct.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\RemoveMotsatProduct\RemoveMotsatProduct.resx">
       <DependentUpon>RemoveMotsatProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemoveOrderProduct.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\RemoveOrderProduct\RemoveOrderProduct.resx">
       <DependentUpon>RemoveOrderProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemoveProductForm.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\RemoveProductForm\RemoveProductForm.resx">
       <DependentUpon>RemoveProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemoveRegionForm.resx">
+    <EmbeddedResource Include="Forms\Delivery Regions\RemoveRegionForm\RemoveRegionForm.resx">
       <DependentUpon>RemoveRegionForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="salesForm.resx">
+    <EmbeddedResource Include="Forms\Sales Forms\salesForm\salesForm.resx">
       <DependentUpon>salesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="sales_RegionsChart.resx">
+    <EmbeddedResource Include="Forms\Sales Forms\sales_RegionsChart\sales_RegionsChart.resx">
       <DependentUpon>sales_RegionsChart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TotalOrdersForm.resx">
+    <EmbeddedResource Include="Forms\Orders Forms\TotalOrdersForm\TotalOrdersForm.resx">
       <DependentUpon>TotalOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TotalPriceDiscount.resx">
+    <EmbeddedResource Include="Forms\Products Forms\Old %28Unused%29\TotalPriceDiscount\TotalPriceDiscount.resx">
       <DependentUpon>TotalPriceDiscount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UnitControl.resx">
+    <EmbeddedResource Include="productControls\UnitControl.resx">
       <DependentUpon>UnitControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WriteEmails.resx">
+    <EmbeddedResource Include="Forms\Emails\WriteEmails.resx">
       <DependentUpon>WriteEmails.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -682,12 +702,6 @@
     <None Include="Resources\new_order_structure2.jpg" />
     <None Include="Resources\new_order_done.jpg" />
     <Content Include="theicon.ico" />
-    <Content Include="x64\pdfium.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="x86\pdfium.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -704,5 +718,6 @@
   <ItemGroup>
     <None Include="Resources\Untitled-1.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
