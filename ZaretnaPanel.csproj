@@ -666,6 +666,7 @@
     <None Include="Resources\Untitled-11.jpg" />
     <None Include="Resources\add_category.png" />
     <None Include="Resources\61-opacity.png" />
+    <Content Include=".gitignore" />
     <Content Include="Resources\add_category_new.jpg" />
     <None Include="Resources\add_category_new1.jpg" />
     <None Include="Resources\edit_pen.png" />
