@@ -43,4 +43,5 @@ In a video that will be provided soon, other features will be presented, such as
 # Installation
 * Clone this repo.
 * Make sure MySQL.Data (By Oracle) is installed.
-* Compile & Run, that's it! :)
+* Compile & Run with Visual Studio (2019+).
+* That's it.
