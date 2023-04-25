@@ -1,5 +1,7 @@
 # Overview - What's this?
 My farmer uncle that has been farming for more than 15 years (works as agriculture engineer as well) decided to start selling fruits & vegetables online, delivered directly from the ground to the customer's house, so my elder brother made him a website, and I was there to help in making the "back-office" windows application that manages the website and the business, such as managing orders, products, customers, delivery, statistics and more.
+Zaretna Facebook Page: https://www.facebook.com/zaretna.co.il
+Zaretna Instagram Page: https://www.instagram.com/zaretna.co.il
 
 # Managing Products
 ![image](https://user-images.githubusercontent.com/36423427/234229345-ebac3f5a-0e6c-4217-a9a4-f9dda7a280f0.png)
