@@ -37,9 +37,6 @@ After collecting and weighting the products, we write the final price of the ord
 * We can also see more detailed graph, such that it shows how many orders were done from each region between two given dates:
 ![image](https://user-images.githubusercontent.com/36423427/234244593-2801745d-8a07-44a5-b2a2-972134b11531.png)
 
-# Other Features
-In a video that will be provided soon, other features will be presented, such as updating products, managing units (kg/box, etc), and more.
-
 # Installation
 * Clone this repo.
 * Make sure MySQL.Data (By Oracle) is installed.
