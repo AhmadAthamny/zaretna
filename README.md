@@ -25,7 +25,7 @@ After collecting and weighting the products, we enter the final price of the ord
 
 # Delivery
 * When an order is collected and a final price was set for it, then the order will appear in the delivery window.
-* Delivery window displays all collected orders, and in it we choose an email address.
+* Delivery window displays all collected orders, and in it we choose an email address. (Or multiple email addresses)
 * We can then send an email to the delivery man that contains a table of collected orders with all needed details.
 * Here's an example of an email sent from the program for delivery:
 ![image](https://user-images.githubusercontent.com/36423427/234241462-02f6f5c8-b27e-4947-832c-ea3a1c8f4649.png)
