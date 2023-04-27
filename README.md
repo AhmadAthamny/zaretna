@@ -10,7 +10,7 @@ Social media links of Zaretna business:
 * Managing products is user-friendly.
 * Same product can appear on multiple categories.
 * Ability to add new categories or modify already existing ones.
-* Each category products can be ordered manually.
+* Each category products can be ordered (organized in the category menu) manually.
 
 # Managing Orders
 ![image](https://user-images.githubusercontent.com/36423427/234231926-f55b2959-24ef-4e91-abe0-628a29939edc.png)
