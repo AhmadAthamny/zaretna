@@ -21,7 +21,7 @@ This is the window to view and manage orders.
 * Supports advanced search (filter by delivery region, customer's first name/last name, phone number, show orders between two dates).
 * To view an order, we simply click on it, and the following window will open:
 ![image](https://user-images.githubusercontent.com/36423427/234238179-d1d429a5-fbbd-4b4d-bcb4-d8a4e501595c.png)
-After collecting and weighting the products, we write the final price of the order (after weighting the products and getting the exact price), then the order will have the golden background.
+After collecting and weighting the products, we enter the final price of the order (after weighting the products and getting the exact price), then the order will have the golden background.
 
 # Delivery
 * When an order is collected and a final price was set for it, then the order will appear in the delivery window.
